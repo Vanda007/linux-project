@@ -99,3 +99,17 @@ sudo chmod 700 /backup
 Penjelasan permission 700 : <br>
 Hanya owner (developer) yang memiliki akses penuh, user lain tidak dapat read, write, execute
 
+### 8. Testing Backup Akses
+- Login sebagai tester
+```bash
+su - tester
+cd /backup
+```
+Hasil : Permission denied
+
+- Login sebagai developer
+```bash
+su - developer
+cd /backup
+```
+Hasil : Berhasil mengkases folder
