@@ -27,7 +27,7 @@ Linux Distro : Ubuntu
 
 1. **Membuat User**
    
-sudo useradd -m -s /bin/bash developer
+sudo useradd -m -s /bin/bash developer <br>
 sudo useradd -m -s /bin/bash tester
 
 3. **Memberikan Password**
