@@ -49,7 +49,27 @@ sudo mkdir /backup
 ### Cek Hasil
 ```bash
 ls -ld /project_app
-ls -l /backup
+ls -ld /backup
 ```
 
+### 4. Mengatur Ownership 
+```bash
+sudo chown developer:developer /project_app
+```
+### Cek Hasil
+```bash
+ls -ld /project_app
+```
 
+### 5. Mengatur Permission 
+```bash
+sudo chmod 755 /project_app
+```
+### Cek Hasil
+```bash
+ls -ld /project_app
+```
+Penjelasan chmod 755 :
+- Owner (developer) -> read, write, execute
+- Group -> read, execute
+- Others (tester) -> read, execute
