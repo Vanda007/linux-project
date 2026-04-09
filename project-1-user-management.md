@@ -1,6 +1,6 @@
 **Project 1 :**
 
-**User \& Permission Management (WSL - Linux Sysadmin Simulation)**
+**User & Permission Management (WSL - Linux Sysadmin Simulation)**
 
 📌 **Deskripsi :**
 
