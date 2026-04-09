@@ -47,16 +47,20 @@ sudo chown developer:developer /project\_app
 9. **Mengatur Permission**
     
 sudo chmod 755 /project\_app
+
 Penjelasan :
+
 Owner (developer) -> read, write, execute
 Others (tester) -> read, execute
 
 11. **Testing Akses
     
 Login sebagai developer**
+
 su - developer
 cd /project\_app
 touch test.txt
+
 Hasil : Berhasil membuat file
 
 **Login sebagai tester**
@@ -64,6 +68,7 @@ Hasil : Berhasil membuat file
 su - tester
 cd /project\_app
 touch gagal.txt
+
 Hasil : Gagal (Permission denied) karena tester tidak memiliki permission write pada folder /project_app
 
 
@@ -73,13 +78,16 @@ sudo chown developer:developer /backup
 sudo chmod 700 /backup
 
 Penjelasan permission 700 :
+
 Hanya owner (developer) yang memiliki akses penuh
+
 User lain tidak dapat read, write, execute
 
 8. Testing Backup Akses
 
 su - tester
 cd /backup
+
 Hasil : Permission denied
 
 su - developer
