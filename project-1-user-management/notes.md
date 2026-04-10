@@ -48,30 +48,37 @@ cat /etc/passwd | grep tester
 ![img](screenshots/2-check-user.png)
 
 ### 3. Membuat Folder Project
+### Command :
 ```bash
 sudo mkdir /project_app
 sudo mkdir /backup
 ```
-Cek Hasil
+### Cek Hasil :
 ```bash
 ls -ld /project_app
 ls -ld /backup
 ```
+### Eksekusi Command di Terminal :
+![img](screenshots/3-create-folder.png)
 
 ### 4. Mengatur Ownership 
+### Command :
 ```bash
 sudo chown developer:developer /project_app
 ```
-Cek Hasil
+### Cek Hasil :
 ```bash
 ls -ld /project_app
 ```
+### Eksekusi Command di Terminal :
+![img](screenshots/4-chown.png)
 
 ### 5. Mengatur Permission 
+### Command :
 ```bash
 sudo chmod 755 /project_app
 ```
-Cek Hasil
+### Cek Hasil :
 ```bash
 ls -ld /project_app
 ```
@@ -79,6 +86,8 @@ Penjelasan permission 755 :
 - Owner (developer) -> read, write, execute
 - Group -> read, execute
 - Others (tester) -> read, execute
+### Eksekusi Command di Terminal :
+![img](screenshots/5-chmod.png)
 
 ### 6. Testing Akses
 - Login sebagai developer
@@ -97,13 +106,21 @@ touch text1.txt
 ```
 Hasil : Gagal (Permission denied), karena tester tidak memiliki permission write pada folder /project_app
 
+### Eksekusi Command di Terminal :
+![img](screenshots/6-developer-test.png)
+![img](screenshots/6-tester-test.png)
+
 ### 7. Setup Folder Backup
+### Command :
 ```bash
 sudo chown developer:developer /backup
 sudo chmod 700 /backup
 ```
 Penjelasan permission 700 : <br>
 Hanya owner (developer) yang memiliki akses penuh, user lain tidak dapat read, write, execute
+
+### Eksekusi Command di Terminal :
+![img](screenshots/7-setup-folder-backup.png)
 
 ### 8. Testing Backup Akses
 - Login sebagai tester
@@ -120,6 +137,8 @@ cd /backup
 ```
 Hasil : Berhasil mengkases folder
 
+### Eksekusi Command di Terminal :
+![img](screenshots/8-testing-backup-accesss.png)
 ---
 
 ## 📊 Hasil 
