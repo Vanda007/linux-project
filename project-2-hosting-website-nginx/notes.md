@@ -21,3 +21,20 @@ Simulasi dilakukan menggunakan WSL untuk merepresentasikan environment server Li
 - Mengakses website menggunakan domail lokal
 
 ---
+
+## ⚙️ Langkah-Langkah
+
+### 1. Update System
+### Command :
+```bash
+sudo apt update
+sudo apt upgrade -y
+```
+
+### Eksekusi Command di Terminal
+
+### 2. Install Nginx
+### Command :
+```bash
+sudo apt install nginx -y
+```
