@@ -92,7 +92,7 @@ server {
   root /var/www/project2;
   index index.html;
 
-  location/ {
+  location / {
     try_files $uri $uri/ =404;
   }
 }
