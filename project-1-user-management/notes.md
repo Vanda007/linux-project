@@ -83,9 +83,9 @@ sudo chmod 755 /project_app
 ls -ld /project_app
 ```
 Penjelasan permission 755 :
-- Owner (developer) -> read, write, execute
-- Group -> read, execute
-- Others (tester) -> read, execute
+- Owner (developer) → read, write, execute
+- Group → read, execute
+- Others (tester) → read, execute
 ### Eksekusi Command di Terminal :
 ![img](screenshots/5-chmod.png)
 
