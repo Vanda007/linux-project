@@ -31,10 +31,39 @@ sudo apt update
 sudo apt upgrade -y
 ```
 
-### Eksekusi Command di Terminal
+### Eksekusi Command di Terminal :
 
 ### 2. Install Nginx
 ### Command :
 ```bash
 sudo apt install nginx -y
 ```
+
+### Eksekusi Command di Terminal :
+
+### 3. Cek Status Nginx
+### Command :
+```bash
+sudo service nginx status
+```
+
+### 4. Membuat Folder Website
+### Command :
+```bash
+sudo mkdir -p /var/www/project2
+```
+
+### 5. Membuat File HTML
+### Command :
+```bash
+sudo nano /var/www/project2/index.html
+```
+### Isi File
+```bash
+<h1>Project Nginx - Vanda</h1>
+<p>Website berhasil dijalankan....</p>
+```
+
+### 6. Mengatur Permission
+```bash
+sudo chown -R $USER:$USER /var/www/project2
