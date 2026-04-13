@@ -67,3 +67,12 @@ sudo nano /var/www/project2/index.html
 ### 6. Mengatur Permission
 ```bash
 sudo chown -R $USER:$USER /var/www/project2
+sudo chmod -R 755 /var/www/project2
+```
+Penjelasan :
+- Parameter $USER:$USER /var/www/project2 <br>
+  -> berarti user yang sedang aktif dijadikan sebagai owner dan group dari folder tersebut
+- Permission 755 <br>
+  7 (owner) - read, write, execute <br>
+  5 (group) - read, execute <br>
+  5 (others) - read, execute
