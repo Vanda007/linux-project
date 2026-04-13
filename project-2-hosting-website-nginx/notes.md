@@ -52,6 +52,9 @@ sudo service nginx status
 sudo mkdir -p /var/www/project2
 ```
 
+### Eksekusi Command di Terminal :
+![img](dokumentasi/2-make-folder.png)
+
 ### 5. Membuat File HTML
 ### Command :
 ```bash
@@ -62,6 +65,9 @@ sudo nano /var/www/project2/index.html
 <h1>Project Nginx - Vanda</h1>
 <p>Website berhasil dijalankan....</p>
 ```
+
+### Eksekusi Command di Terminal :
+![img](dokumentasi/3-make-html-file.png)
 
 ### 6. Mengatur Permission
 ### Command :
