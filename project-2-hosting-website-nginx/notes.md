@@ -1,4 +1,4 @@
-# 🐧 Project 2: Hosting Website Menggunakan NGINX Di WSL
+# 🐧 Project 2: Hosting Website Menggunakan Nginx Di WSL
 
 ## 📌 Deskripsi 
 Project ini berfokus pada implementasi web server NGINX, mulai dari instalasi, konfigurasi virtual host, hingga deployment website sederhana. 
