@@ -48,3 +48,20 @@ Jika muncul ***Are you sure you want to continue connecting (yes/no)?***, pilih 
 Setelah berhasil login, cek dengan whoami maka outputnya akan developer
 ```
 
+### 5. Keluar dari SSH
+```bash
+exit
+```
+
+### 6. Konfigurasi Security (Disable Root Login)
+### Command :
+```bash
+sudo nano /etc/ssh/sshd_config
+```
+
+Kemudian cari dan ubah **PermitRootLogin yes** menjadi **PermitRootLogin no**
+
+**Penjelasan :** <br>
+PermitRootLogin digunakan untuk mengatur apakah user root boleh login melalui ssh, jika diatur ke no maka login root akan ditolak oleh sistem.<br>
+Tujuannya meningkatkan keamanan server dan mencegah akses langsung ke root.<br>
+Login root dinonaktifkan sehingga akses ke server dilakukan melalui user biasa.
