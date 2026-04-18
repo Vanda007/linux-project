@@ -42,3 +42,9 @@ sudo service ssh status
 ssh developer@localhost
 ```
 Jika muncul ***Are you sure you want to continue connecting (yes/no)?***, pilih ***yes*** kemudian masukkan password user developer
+
+### 4. Verifikasi Login
+```bash
+Setelah berhasil login, cek dengan whoami maka outputnya akan developer
+```
+
