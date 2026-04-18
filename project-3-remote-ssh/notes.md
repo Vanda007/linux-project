@@ -22,3 +22,10 @@ Melalui projek ini, dilakukan simulasi koneksi ke server, verifikasi akses user,
 
 ---
 
+## ⚙️ Langkah-Langkah
+### 1. Install SSH server
+### Command :
+```bash
+sudo apt update
+sudo apt install openssh-server -y
+```
