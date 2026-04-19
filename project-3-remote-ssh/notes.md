@@ -70,7 +70,7 @@ Kemudian cari dan ubah **PermitRootLogin yes** menjadi **PermitRootLogin no**
 - Tujuannya meningkatkan keamanan server dan mencegah akses langsung ke root.<br>
 - Login root dinonaktifkan sehingga akses ke server dilakukan melalui user biasa.
 
-### 7. Restart SSh Service
+### 7. Restart SSH Service
 ### Command :
 ```bash
 sudo service ssh restart
@@ -83,3 +83,19 @@ ssh root@localhost
 Hasil : Permission denied
 
 ![img](dokumentasi/3-root-denied.png)
+
+---
+
+## 📊 Hasil
+- SSH server berhasil diinstall dan dijalankan
+- Remote login menggunakan user berhasil dilakukan
+- Login root berhasil dinonaktifkan
+- Sistem menjadi lebih aman
+
+---
+
+## 🧠 Insight
+- SSH digunakan untuk mengakses server secara remote
+- Security merupakan bagian penting dalam administrasi server
+- Penggunaan user non root lebih aman dibandingkan root
+- Konfigurasi SSH sangat penting dalam lingkungan produksi
